@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">helloword</string>
+    <string name="welcome_word">Hello World, helloword</string>
+    <string name="btn1">测试按钮1</string>
+</resources>

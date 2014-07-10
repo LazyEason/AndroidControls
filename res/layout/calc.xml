@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:columnCount="4"
+    android:rowCount="6"
+    android:id="@+id/cal_root">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:padding="5dp"
+        android:background="#eee"
+        android:gravity="right"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:text="0"/>
+    <Button android:id="@+id/clear_cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="Clear Data"/>
+    
+    
+
+</GridLayout>

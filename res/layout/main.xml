@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+
+    <TextView android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="320dp"
+        android:height="320dp"
+        android:background="#f00"/>
+    
+        <TextView android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="280dp"
+        android:height="280dp"
+        android:background="#0f0"/>
+        
+        <TextView android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="240dp"
+        android:height="240dp"
+        android:background="#0ff"/>
+    
+		<TextView android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="200dp"
+        android:height="200dp"
+        android:background="#f0f"/>
+		
+		<TextView android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="160dp"
+        android:height="160dp"
+        android:background="#0ff"/>
+    
+		<TextView android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="120dp"
+        android:height="120dp"
+        android:background="#f0f"/>
+
+</FrameLayout>
+
