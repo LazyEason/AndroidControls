@@ -3,4 +3,6 @@
     <string name="app_name">helloword</string>
     <string name="welcome_word">Hello World, helloword</string>
     <string name="btn1">测试按钮1</string>
+    <string name="label_favor">收藏</string>
+    <string name="label_share">分享</string>
 </resources>

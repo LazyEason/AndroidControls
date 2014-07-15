@@ -2,7 +2,6 @@ package org.weicheche.helloworld;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
