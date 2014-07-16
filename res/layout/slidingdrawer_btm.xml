@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/bg_menu_downbar" >
+
+    <Button
+        android:id="@+id/btn_sliding_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/half_horizontal_margin"
+                android:src="@drawable/ic_info_pannel_sun" />
+
+            <TextView
+                android:id="@+id/txt_sliding_3_weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_Small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/quarter_horizontal_margin"
+                android:src="@drawable/ic_info_pannel_car" />
+            
+            <TextView
+                android:id="@+id/txt_sliding_3_wash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/txt_wash_index"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_Small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/bg_menu_midbar" >
+
+    <Button
+        android:id="@+id/btn_sliding_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_selector" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_info_pannel_more" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="@dimen/half_horizontal_margin"
+        android:src="@drawable/arrow_right_transparent" />
+
+    <TextView
+        android:id="@+id/txt_sliding_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/large_horizontal_margin"
+        android:layout_marginRight="@dimen/small_horizontal_margin"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_Small" />
+
+</FrameLayout>

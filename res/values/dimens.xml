@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="quarter_vertical_margin">4dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="huge_horizontal_margin">192dp</dimen>
+    <dimen name="xxlarge_horizontal_margin">80dp</dimen>
+    <dimen name="xxlarge_vertical_margin">80dp</dimen>
+    <dimen name="xlarge_horizontal_margin">64dp</dimen>
+    <dimen name="xlarge_vertical_margin">64dp</dimen>
+    <dimen name="large_horizontal_margin">48dp</dimen>
+    <dimen name="large_vertical_margin">48dp</dimen>
     <dimen name="medium_horizontal_margin">32dp</dimen>
     <dimen name="medium_vertical_margin">32dp</dimen>
+    <dimen name="small_horizontal_margin">24dp</dimen>
+    <dimen name="small_vertical_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="half_horizontal_margin">8dp</dimen>
+    <dimen name="half_vertical_margin">8dp</dimen>
+    <dimen name="quarter_horizontal_margin">4dp</dimen>
+    <dimen name="quarter_vertical_margin">4dp</dimen>
+	
+    <dimen name="realtime_opened_vertical_margin">168dp</dimen>
+    <dimen name="filter_opened_vertical_margin">184dp</dimen>
+    
+    <!-- Text Size. -->
+    <dimen name="textSize_Micro">11sp</dimen>
+    <dimen name="textSize_Small">14sp</dimen>
+    <dimen name="textSize_Medium">18sp</dimen>
+    <dimen name="textSize_Large">22sp</dimen>
+    <dimen name="textSize_xLarge">28sp</dimen>
+    <dimen name="textSize_xxLarge">32sp</dimen>
+    <dimen name="textSize_xxxLarge">36sp</dimen>
+
+    <!-- ImageView Size. -->
+    <dimen name="prev_img_width_l">128dp</dimen>
+    <dimen name="prev_img_height_l">128dp</dimen>
+    <dimen name="prev_img_width_m">112dp</dimen>
+    <dimen name="prev_img_height_m">112dp</dimen>
+    <dimen name="prev_img_width">96dp</dimen>
+    <dimen name="prev_img_height">96dp</dimen>
+    <dimen name="prev_img_width_n">72dp</dimen>
+    <dimen name="prev_img_height_n">72dp</dimen>
+    <dimen name="prev_img_width_s">64dp</dimen>
+    <dimen name="prev_img_height_s">64dp</dimen>
+    <dimen name="prev_img_width_t">48dp</dimen>
+    <dimen name="prev_img_height_t">48dp</dimen>
+    
+    <!-- Layout Height. -->
+    <dimen name="layout_height_tiny">16dp</dimen>
+    <dimen name="layout_height_micro">32dp</dimen>
+    <dimen name="layout_height_small">40dp</dimen>
+    <dimen name="layout_height_medium">48dp</dimen>
+    <dimen name="layout_height_large">56dp</dimen>
+    <dimen name="layout_height_xlarge">64dp</dimen>
+    <dimen name="layout_height_xxlarge">72dp</dimen>
+    <dimen name="layout_height_xxxlarge">96dp</dimen>
+    <dimen name="layout_height_xxxxlarge">116dp</dimen>
+    <dimen name="main_button_height">40dp</dimen>
+    <dimen name="titlebar_button_height">32dp</dimen>
+    
+    <dimen name="notification_icon_width">64dp</dimen>
+    <dimen name="map_pin_refuel_text_xoffset">16dp</dimen>
+    <dimen name="map_pin_refuel_text_yoffset">46dp</dimen>
+    <dimen name="map_pop_text_width">208dp</dimen>
+	<dimen name="map_pop_maxwidth">288dp</dimen>
+    <dimen name="map_pop_minheight">96dp</dimen>
+    <dimen name="barbutton_width">56dp</dimen>
+    
+    <dimen name="edittext_signin">256dp</dimen>
+    
+    <!-- Border -->
+    <dimen name="corners_border_small">10dp</dimen>
+    <dimen name="corners_border_size">5dp</dimen>
+    <dimen name="station_map_border_size">1dp</dimen>
+    
 </resources>

@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="gray">#888888</color>
+    <color name="actionbar_bg">#333333</color>
+	<color name="main_bg">#FFF7EA</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_semi_w">#70ffffff</color>
+    <color name="transparent_semi_b">#70000000</color>
+    <color name="gold">#ffc706</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkdkgray">#181818</color>
+    <color name="darkgray">#444444</color>
+    <color name="dkgray">#626262</color>
+    <color name="gray">#888888</color>
+    <color name="ltgray">#a0a0a0</color>
+    <color name="lightgray">#cccccc</color>
+    <color name="lightgray_t">#44cccccc</color>
+    <color name="lightltgray">#e7e7e7</color>
+    <color name="blue">#3E7EC8</color>
+    <color name="dkblue">#677787</color>
+    <color name="darkblue">#1d3741</color>
+    <color name="main_color">#6a3e0d</color>
+    <color name="lightblue">#60B2F4</color>
+    <color name="lightblue_t">#4460B2F4</color>
+    <color name="ltred">#ff8080</color>
+    <color name="evl_red">#ec5b84</color>
+    <color name="pink">#ff80c0</color>
+    <color name="cicle_red">#f9bdbd</color>
+    <color name="cicle_yellow">#fbe995</color>
+    <color name="cicle_green">#96dad4</color>
+    <color name="picker_bg">#82daee</color>
+    <color name="picker_val">#51c7e1</color>
+    <color name="main_brown">#6a3e0d</color>
+    <color name="main_blue">#73cee2</color>
+    <color name="brown_t">#8A6A3E0D</color>
+    <color name="lightyellow">#FCEED3</color>
+    <color name="main_bg2">#fceed3</color>
+    <color name="main_brown_t">#a06a3e0d</color>
     <color name="green_light">#28a05e</color>   <!-- 37B89A -->
+    <color name="green_main">#2baa64</color>
+    <color name="green_normal">#2baa64</color>   <!-- 079471 -->
+    <color name="green_dark">#27995a</color>  <!-- 058564 -->
+    <color name="blue_green">#89f1d9</color>
+    <color name="light_blue">#72d2bc</color>
+    <color name="light_green">#72d2bc</color>
 </resources>
