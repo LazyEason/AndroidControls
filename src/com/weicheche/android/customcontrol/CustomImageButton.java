@@ -15,12 +15,15 @@ import android.widget.TextView;
 
 public class CustomImageButton extends LinearLayout {
 
+
 	// UI element
 	private ImageView imageView;
 	private TextView textView;
 	private CharSequence text;
 	private Drawable drawable;
 	private float textSize;
+	
+	
 	
 	public CustomImageButton(Context context) {
 		super(context);
@@ -79,4 +82,7 @@ public class CustomImageButton extends LinearLayout {
 	public void setTextViewText(String text){
 		textView.setText(text);
 	}
+	
+//	@Override
+//	public void 
 }
